@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7293026072204219413
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: eed541ca77d2a5f4cb699f66d9b2cc29, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: eed541ca77d2a5f4cb699f66d9b2cc29, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: eed541ca77d2a5f4cb699f66d9b2cc29, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: eed541ca77d2a5f4cb699f66d9b2cc29, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.1148299
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: eed541ca77d2a5f4cb699f66d9b2cc29, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.086633064
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: eed541ca77d2a5f4cb699f66d9b2cc29, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.11398099
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: eed541ca77d2a5f4cb699f66d9b2cc29, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: eed541ca77d2a5f4cb699f66d9b2cc29, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: eed541ca77d2a5f4cb699f66d9b2cc29, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: eed541ca77d2a5f4cb699f66d9b2cc29, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: eed541ca77d2a5f4cb699f66d9b2cc29, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: eed541ca77d2a5f4cb699f66d9b2cc29, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: eed541ca77d2a5f4cb699f66d9b2cc29, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: eed541ca77d2a5f4cb699f66d9b2cc29, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: eed541ca77d2a5f4cb699f66d9b2cc29, type: 3}
+      propertyPath: m_Name
+      value: 3D RightArrow
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: eed541ca77d2a5f4cb699f66d9b2cc29, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6825719110642135942}
+  m_SourcePrefab: {fileID: 100100000, guid: eed541ca77d2a5f4cb699f66d9b2cc29, type: 3}
+--- !u!1 &7635678635623983428 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: eed541ca77d2a5f4cb699f66d9b2cc29, type: 3}
+  m_PrefabInstance: {fileID: 7293026072204219413}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6825719110642135942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7635678635623983428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b32a3a01225f34943a588adc699a312c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 1.5
+  lifetime: 20
